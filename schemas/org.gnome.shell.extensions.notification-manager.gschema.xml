@@ -8,7 +8,7 @@
         </key>
 
         <key type="i" name="anchor-horizontal">
-            <default>2</default>
+            <default>1</default>
             <summary>Horizontal position of the banner</summary>
             <description></description>
             <range min="0" max="2" />
