@@ -17,6 +17,8 @@ sources = [
     'extension.js',
 ]
 
+subdir('schemas')
+
 if get_option('prefix') == '/usr'
 	gnome.post_install(
         glib_compile_schemas: true,
