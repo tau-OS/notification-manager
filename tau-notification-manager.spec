@@ -33,7 +33,7 @@ Allow adjustments of notification positioning
 %check
 %meson_test
 
-%files -f %{name}.lang
+%files
 %license COPYING
 %doc README.md
 %{extdir}
