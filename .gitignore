@@ -1,0 +1,7 @@
+.~
+*~
+_build
+
+*.tar.gz
+*.log
+*.rpm

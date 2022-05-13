@@ -1,0 +1,12 @@
+{
+    "description": "Allow adjustments of notification positioning",
+    "name": "Notification Manager",
+    "shell-version": [
+        "40",
+        "41",
+        "42"
+    ],
+    "url": "https://tauos.co",
+    "uuid": "notification-manager@tauos.co",
+    "version": 1
+}
