@@ -29,6 +29,7 @@ Allow adjustments of notification positioning
 
 # Cleanup crap.
 %{__rm} -fr %{buildroot}%{extdir}/{COPYING*,README*,schemas}
+%{__rm} -fr %{buildroot}%{_datadir}/glib-2.0/schemas/org.gnome.shell.extensions.notification-manager.gschema.xml
 
 %check
 %meson_test
@@ -37,6 +38,7 @@ Allow adjustments of notification positioning
 %license COPYING
 %doc README.md
 %{extdir}
+
 
 %changelog
 * Thu May 12 2022 Jamie Murphy <jamie@fyralabs.com> - 1-1
