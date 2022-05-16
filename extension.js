@@ -62,7 +62,7 @@ function calcTarget(self) {
       x = 0;
       break;
     case 1: // right
-      x = (getMessageTraySize().width - self._banner.width) * 0.88;
+      x = (getMessageTraySize().width - self._banner.width) * 0.95;
       break;
     case 2: // center
       x = (getMessageTraySize().width - self._banner.width) / 2.0;
@@ -73,7 +73,7 @@ function calcTarget(self) {
       y = 0;
       break;
     case 1: // bottom
-      y = (getMessageTraySize().height - self._banner.height) * 0.88;
+      y = (getMessageTraySize().height - self._banner.height) * 0.95;
       break;
   }
   return { x, y };
