@@ -7,7 +7,7 @@ Version:        1
 Release:        1.3%{dist}
 License:        GPLv3+
 URL:            http://tauos.co
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/tau-OS/notification-manager/archive/refs/heads/main.zip
 BuildArch:      noarch
 BuildRequires:  meson
 BuildRequires:  %{_bindir}/glib-compile-schemas
@@ -18,7 +18,7 @@ Requires:       gnome-shell-extension-common
 Allow adjustments of notification positioning
 
 %prep
-%setup -q
+%setup -q -n notification-manager-main
 
 %build
 %meson
