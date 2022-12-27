@@ -4,7 +4,7 @@ Summary:        Allow adjustments of notification positioning
 Name:           tau-notification-manager
 # This should match the version in metadata.json
 Version:        1
-Release:        1.3%{dist}
+Release:        1.4%{dist}
 License:        GPLv3+
 URL:            http://tauos.co
 Source0:        https://github.com/tau-OS/notification-manager/archive/refs/heads/main.zip
