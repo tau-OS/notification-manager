@@ -73,7 +73,8 @@ function calcTarget(self) {
       y = 0;
       break;
     case 1: // bottom
-      y = (getMessageTraySize().height - self._banner.height) * 0.95;
+      y = 1;
+      x = 1;
       break;
   }
   return { x, y };
